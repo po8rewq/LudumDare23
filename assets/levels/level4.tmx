@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="19" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="endx" value="49"/>
+  <property name="endy" value="12"/>
+  <property name="startx" value="0"/>
+  <property name="starty" value="12"/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32">
+  <image source="../gfx/tiles.png" width="160" height="160"/>
+ </tileset>
+ <layer name="background" width="50" height="19">
+  <data encoding="base64" compression="zlib">
+   eJztkUEKwCAMBIOpx/7/u71UCEFdpamtsMIgQlx3MItIJoQQQsh26A86oH6Fr7sgzpuWRxrwUJBj8SvSodchBWR4Dzu/0mXm7gHwHgU1u4IZi81G8+js85BHq2ctv+cklfxeLmLUoXhErtobbzusBP3nLh5PuQDSqBSV
+  </data>
+ </layer>
+ <layer name="backdrop" width="50" height="19">
+  <data encoding="base64" compression="zlib">
+   eJzt0kEKACAIBECr//85OgRSUGpWHnZA6KK5FBFEkobzqrRzpXWT9V7N/pKZr3MDwKyw+u1kl9aTjb3eMiutSDkaSwaPXm99l/F/Fdr/O0mOKO8FAPBbBRjIAHQ=
+  </data>
+ </layer>
+ <layer name="ground" width="50" height="19">
+  <data encoding="base64" compression="zlib">
+   eJztlMEKACEIRDv4/9/cZU9SLOrbzWAeDF1sGlEaQwghxB/Yo9tRH73o0EclgzmdJpODyJ59l/Lc1fr5rBStj3pGfVd336B3z9xJ+VF1GS9ixyO1pCpZiHtfQv8bJ6nOdQJfQgGx
+  </data>
+ </layer>
+ <objectgroup name="instructions" width="50" height="19" visible="0">
+  <object gid="1" x="385" y="351">
+   <properties>
+    <property name="text" value="I have a bad feeling about this!"/>
+   </properties>
+  </object>
+  <object gid="1" x="128" y="380">
+   <properties>
+    <property name="text" value="The ground seems strange..."/>
+   </properties>
+  </object>
+  <object gid="1" x="660" y="487">
+   <properties>
+    <property name="text" value="I found a hidden cave! So cool!"/>
+   </properties>
+  </object>
+  <object gid="1" x="629" y="385">
+   <properties>
+    <property name="text" value="i'm so thirsty, I could drink anything..."/>
+   </properties>
+  </object>
+  <object gid="1" x="364" y="483">
+   <properties>
+    <property name="text" value="There is something in the way, maybe with a little help it will go away..."/>
+   </properties>
+  </object>
+  <object gid="1" x="1065" y="499">
+   <properties>
+    <property name="text" value="It's so cold in here... and so dark... mommy ?"/>
+   </properties>
+  </object>
+  <object gid="1" x="867" y="355">
+   <properties>
+    <property name="text" value="Yeah Baby!!"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="items" width="50" height="19">
+  <object gid="8" x="703" y="417">
+   <properties>
+    <property name="behavior" value="fire"/>
+    <property name="color" value="orange"/>
+    <property name="instruction" value="Fire with SPACE"/>
+   </properties>
+  </object>
+  <object gid="6" x="480" y="483"/>
+  <object gid="6" x="822" y="491"/>
+  <object gid="6" x="755" y="491"/>
+  <object gid="6" x="688" y="492"/>
+  <object gid="6" x="629" y="491"/>
+  <object gid="6" x="1489" y="303"/>
+  <object gid="6" x="1265" y="395"/>
+ </objectgroup>
+ <objectgroup name="monsters" width="50" height="19" visible="0">
+  <object gid="1" x="1312" y="378"/>
+  <object gid="1" x="615" y="383"/>
+  <object gid="1" x="735" y="471"/>
+  <object gid="1" x="1275" y="537"/>
+ </objectgroup>
+ <objectgroup name="blocks" width="50" height="19">
+  <object gid="1" x="512" y="512"/>
+ </objectgroup>
+</map>

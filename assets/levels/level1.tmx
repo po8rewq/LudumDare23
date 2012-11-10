@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="35" height="19" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="behaviors" value="walk"/>
+  <property name="endx" value="34"/>
+  <property name="endy" value="12"/>
+  <property name="startx" value="0"/>
+  <property name="starty" value="11"/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32">
+  <image source="../gfx/tiles.png" width="160" height="160"/>
+ </tileset>
+ <layer name="background" width="35" height="19">
+  <data encoding="base64" compression="zlib">
+   eJztw7EJAAAIA7AO9v+XfUMhgTRJVdWTR59esgYMTw==
+  </data>
+ </layer>
+ <layer name="backdrop" width="35" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFhAAjAUxNs0gxl1y9pLiBXH+OglFADcCMhHGJEeKPuoW2bgEBJiLECPHxAWYseKDcMgpGwSggHgAAAJAAtA==
+  </data>
+ </layer>
+ <layer name="ground" width="35" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAoGHrAMtAOQAMsgwqNgFAxVAAC/8wCR
+  </data>
+ </layer>
+ <objectgroup name="instructions" width="35" height="19">
+  <object gid="1" x="0" y="365">
+   <properties>
+    <property name="text" value="What the ... ?"/>
+   </properties>
+  </object>
+  <object gid="1" x="113" y="388">
+   <properties>
+    <property name="text" value="Where am I ?"/>
+   </properties>
+  </object>
+  <object gid="1" x="790" y="385">
+   <properties>
+    <property name="text" value="I have to find my spaceship... I can't stay here!"/>
+   </properties>
+  </object>
+  <object gid="1" x="567" y="384">
+   <properties>
+    <property name="text" value="Why does everything seem so tiny ?"/>
+   </properties>
+  </object>
+  <object gid="1" x="330" y="378">
+   <properties>
+    <property name="text" value="Was that a black hole ?"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="items" width="35" height="19">
+  <object gid="6" x="543" y="290"/>
+  <object gid="6" x="831" y="290"/>
+ </objectgroup>
+</map>

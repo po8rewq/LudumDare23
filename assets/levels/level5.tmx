@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="19" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="endx" value="39"/>
+  <property name="endy" value="11"/>
+  <property name="startx" value="0"/>
+  <property name="starty" value="12"/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32">
+  <image source="../gfx/tiles.png" width="160" height="160"/>
+ </tileset>
+ <layer name="background" width="40" height="19">
+  <data encoding="base64" compression="zlib">
+   eJzlktEKwCAIRd2sx/7/d/dSIKJLozI24T5U6j1KGQDygC6HRvp7PVfWr5pn9i6imf4mJDqx51f4PJ6zZ76NnrfD09KT97f48jzseGp9PXwnRAGdryhCJi3HUmut9/BF6W3H0QKyU6znVBXNSNnoXYJ4RolN4tMY+Z31/9P8kXeJrzHuCmm+dtb4dqoXDzvrEfc=
+  </data>
+ </layer>
+ <layer name="ground" width="40" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDFXAMtAOIABG3UcZGAruG2g8CqgHBnMYo7uDBY8cvQE2+/G5l54Al73EuBmffnLspIYZg6VsGeg0BwKE3A8AeXwBbQ==
+  </data>
+ </layer>
+ <layer name="backdrop" width="40" height="19">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAPBiC+AAAQ==
+  </data>
+ </layer>
+ <objectgroup name="blocks" width="40" height="19" visible="0">
+  <object gid="1" x="1024" y="545">
+   <properties>
+    <property name="col" value="3"/>
+    <property name="row" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="items" width="40" height="19">
+  <object gid="6" x="1152" y="544"/>
+  <object gid="6" x="576" y="289"/>
+  <object gid="6" x="256" y="194"/>
+  <object gid="6" x="929" y="193"/>
+  <object gid="6" x="480" y="510"/>
+  <object gid="6" x="35" y="273"/>
+ </objectgroup>
+ <objectgroup name="monsters" width="40" height="19" visible="0">
+  <object gid="1" x="571" y="502"/>
+  <object gid="1" x="903" y="498"/>
+  <object gid="1" x="387" y="512"/>
+  <object gid="1" x="213" y="494"/>
+ </objectgroup>
+ <objectgroup name="instructions" width="40" height="19" visible="0">
+  <object gid="1" x="1152" y="556">
+   <properties>
+    <property name="text" value="$$**$!"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

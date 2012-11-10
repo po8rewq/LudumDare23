@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="35" height="19" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="behaviors" value=""/>
+  <property name="endx" value="34"/>
+  <property name="endy" value="12"/>
+  <property name="startx" value="0"/>
+  <property name="starty" value="12"/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32">
+  <image source="../gfx/tiles.png" width="160" height="160"/>
+ </tileset>
+ <layer name="background" width="35" height="19">
+  <data encoding="base64" compression="zlib">
+   eJzVkVEKwCAMQzOnn97/uvuZbJTU1aKWBQKi2LxoAVB+7ON2NMfKftEMVp8vR3M07WaSeW0tWRjP17nHiczCYI+ZLHIvgkWbZWFpPVgXL0si2TB2ncnC/qjiUSRLDWDRJFlmqUKfnYnlnVXW8nez9N5iJ4uVI2NcWl6Pw8oyao/YnAs+ig2U
+  </data>
+ </layer>
+ <layer name="backdrop" width="35" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgZgBELHsxm08Kdo2AUUAswD7QDGCBugOGBBoPJLSDANNAOQAL0cAszA3FxgM8tgyXuRsEoGE4AAEG3ADg=
+  </data>
+ </layer>
+ <layer name="ground" width="35" height="19">
+  <data encoding="base64" compression="zlib">
+   eJztk0sOwCAIRGnl/md20yaNAUH5deFLZmUyTAYEOFi5CB1qwUcSbVAUd6A3B9eBJYt3TxW9cFRlofb0p160fykDBL88kgcykt53NZu9k98LzZyMLNq9R2dZuT/LDXw9JO8IrDf80gHJFQFe
+  </data>
+ </layer>
+ <objectgroup name="instructions" width="35" height="19">
+  <object gid="1" x="71" y="392">
+   <properties>
+    <property name="repeat" value="1"/>
+    <property name="text" value="Hey! Is that pieces from my spaceship?"/>
+   </properties>
+  </object>
+  <object gid="1" x="575" y="387">
+   <properties>
+    <property name="text" value="If I'm able to find all the pieces, maybe..."/>
+   </properties>
+  </object>
+  <object gid="1" x="96" y="209">
+   <properties>
+    <property name="text" value="Strange tree..."/>
+   </properties>
+  </object>
+  <object gid="1" x="374" y="50">
+   <properties>
+    <property name="repeat" value="-1"/>
+    <property name="text" value="I believe, I can fly!!"/>
+   </properties>
+  </object>
+  <object gid="1" x="227" y="514">
+   <properties>
+    <property name="text" value="I can't go back, I'll have to take another path."/>
+   </properties>
+  </object>
+  <object gid="1" x="466" y="507">
+   <properties>
+    <property name="text" value="Is that... robots? Or just moving pixels? Whatever, I'll be careful."/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="items" width="35" height="19">
+  <object gid="6" x="736" y="414"/>
+  <object gid="6" x="801" y="413"/>
+  <object gid="6" x="353" y="381"/>
+  <object gid="6" x="478" y="50"/>
+  <object gid="6" x="592" y="140"/>
+  <object gid="6" x="767" y="212"/>
+ </objectgroup>
+ <objectgroup name="monsters" width="35" height="19">
+  <object gid="1" x="632" y="521"/>
+  <object gid="1" x="802" y="517"/>
+ </objectgroup>
+</map>

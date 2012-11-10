@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="19" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="behaviors" value=""/>
+  <property name="endx" value="29"/>
+  <property name="endy" value="12"/>
+  <property name="startx" value="0"/>
+  <property name="starty" value="12"/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32">
+  <image source="../gfx/tiles.png" width="160" height="160"/>
+ </tileset>
+ <layer name="background" width="30" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjZWBgYB3Fo3gUj+JRTBPMMgjcQCoeKMAyikcxDTAAfPkJ9g==
+  </data>
+ </layer>
+ <layer name="backdrop" width="30" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgcgBGK0dnE6EHG2NRQyxx88pSqHwWjYKAAMxKmpznUtJdpAOxlgNpLijwh9dS0lwmNPwpGwUgFAK6nAFI=
+  </data>
+ </layer>
+ <layer name="ground" width="30" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjILhC1iQML3tpCcg1Z/41LMMEB4Fo4AWAADTtwCl
+  </data>
+ </layer>
+ <objectgroup name="instructions" width="30" height="19">
+  <object gid="1" x="52" y="385">
+   <properties>
+    <property name="text" value="Is that something to drink ?"/>
+   </properties>
+  </object>
+  <object gid="1" x="480" y="307">
+   <properties>
+    <property name="text" value="There is probably a way to get into that cave..."/>
+   </properties>
+  </object>
+  <object gid="1" x="673" y="376">
+   <properties>
+    <property name="text" value="I'll deal with this later."/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="items" width="30" height="19">
+  <object gid="8" x="224" y="416">
+   <properties>
+    <property name="behavior" value="jump"/>
+    <property name="color" value="blue"/>
+    <property name="instruction" value="Press UP or W to jump"/>
+   </properties>
+  </object>
+  <object gid="6" x="449" y="402"/>
+ </objectgroup>
+ <objectgroup name="blocks" width="30" height="19">
+  <object gid="1" x="480" y="416"/>
+ </objectgroup>
+</map>
